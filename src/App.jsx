@@ -86,6 +86,8 @@ import MensHealth from './Components/MensHealth/MensHealth'
 import WomensHealth from './Components/WomensHealth/WomensHealth'
 import Dengue from './Components/Dengue/Dengue'
 import FriendshipDay from './Components/FriendshipDay/FriendshipDay'
+import IndependanceDay from './Components/IndependanceDay/IndependanceDay'
+
 
 export default function App() {
   const dispatch = useDispatch();
@@ -129,7 +131,8 @@ export default function App() {
           <Route path='/register' exact element={<Register />} />
           <Route path='/test/:TestId' exact element={<TestDetails />} />
           <Route path='/package/:TestId' exact element={<TestDetails />} />
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
+          <Route path='/' element={<IndependanceDay />} />
           <Route path='/about-us' element={<About />} />
           <Route path='/people-behind' element={<Peoplebhind />} />
           <Route path='/history' element={<History />} />
