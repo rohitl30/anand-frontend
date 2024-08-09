@@ -7,6 +7,13 @@ import Reports from "../../assets/images/reports.png";
 import ScheduleTest from "../../assets/images/Scheduletest.png";
 import Samples from "../../assets/images/samples.png";
 import tick from "../../assets/images/tick-lit.png";
+import india from "../../assets/images/India.png";
+import bindia from "../../assets/images/Bindia.png";
+import addicon from "../../assets/images/addicon.png";
+import addb from "../../assets/images/addb.png";
+import orangeplus from "../../assets/images/orangeplus.png";
+
+
 
 
 
@@ -32,9 +39,9 @@ export default function IndependanceDay() {
                 </div>
                 <div className="row  justify-content-center">
                     <button className="bg-orange button-flex">
-                        <img src={call} alt="call" />
+                        <img className="callimg"src={call} alt="call" />
                         <h2 className="white-text">
-                            8035 28 7579
+                            8035&nbsp;28&nbsp;7579
                         </h2>
                     </button>
                 </div>
@@ -42,7 +49,7 @@ export default function IndependanceDay() {
             </div>
 
 
-            <div className="cont">
+              <div className="cont">
                 <div className="form-container">
                     <h2>Our Partners in Health are at your service</h2>
                     <form>
@@ -90,9 +97,13 @@ export default function IndependanceDay() {
                         <div className="col-lg-5">
                             <p className="bullet-text"><img className="tick-img" src={tick} alt="bullet" />TSH</p>
                             <p className="bullet-text"><img className="tick-img" src={tick} alt="bullet" />Liver Function Test</p>
-
-
                         </div>
+                        <img className="ind" src={india} alt="india" />
+                        <img className="logo" src={bindia} alt="indian" />
+                        <img className="add" src={addicon} alt="icon" />
+                        <img className="addb" src={addb} alt="n" />
+
+
                     </div>
                 </div>
 
@@ -133,6 +144,9 @@ export default function IndependanceDay() {
                             <p className="bullet-text"><img className="tick-img" src={tick} alt="bullet" />Total Calcium</p>
                             <p className="bullet-text"><img className="tick-img" src={tick} alt="bullet" />Vitamin-D(25-OH)</p>
                         </div>
+                        <img className="indian" src={india} alt="india" />
+                        <img className="logo2" src={bindia} alt="indian" />
+                        <img className="oplus" src={orangeplus} alt="indian" />
 
                     </div>
                 </div>
