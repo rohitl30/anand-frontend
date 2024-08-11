@@ -303,11 +303,17 @@
 
 }
 
+.text-background{
+    padding: 0rem 2rem 0rem 2rem;
+}
+
 .violett-container {
     display: flex;
     flex-direction: column;
     text-align: left;
     position: relative;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
 
 }
 
@@ -322,7 +328,7 @@
 .flag {
     width: 410px;
     height: 412px;
-    transform: translate(10px, 110px);
+    transform: translate(20px,-9px);
 }
 
 .offer {
@@ -331,7 +337,7 @@
     left: 440px;
     width: 230.34px;
     height: 255.54px;
-    transform: translate(-25px, 100px);
+    transform: translate(30px, -40px);
 
   }
   
@@ -345,13 +351,13 @@
 .f{
     background: #5C2D91CC;
     padding: 1rem 4rem 1rem 4rem;
-    margin-top: -30rem;
+    margin-top: -35rem;
     width: 500px;
     height: 420px;
     color: white;
     border-radius: 15px;
     z-index: 1;
-    margin-left:45rem;
+    margin-left:53rem;
 
 
 }
@@ -410,5 +416,7 @@
 
     
 }
-
-
+.container-n{
+    height: 32rem;
+    margin: 4rem 4rem 4rem 4rem;
+}

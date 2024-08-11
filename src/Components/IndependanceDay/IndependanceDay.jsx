@@ -49,15 +49,15 @@ export default function IndependanceDay() {
                 </div>
 
             </div>
-            <div className="container" style={{ background: 'linear-gradient(180deg, #FFFFFF 0%, #F7941D 100%)', borderRadius: '20px' }}>
+            <div className="container-n" style={{ background: 'linear-gradient(180deg, #FFFFFF 0%, #F7941D 100%)', borderRadius: '20px' }}>
                 <div className="row">
-                    <h2 className="violett-container">
-                        <span className="text-background" style={{ background:'white'}}>
+                    <div className="violett-container">
+                        <h2 className="text-background" style={{ background:'white'}}>
                             Enjoy the freedom to live healthy!
-                        </span>
+                        </h2>
                         <img className="flag" src={boygirlflag} alt="flag" />
                         <img className="offer" src={by1get1} alt="flag" />
-                    </h2>
+                    </div>
                 </div>
 
                 <div className='for-m'>
