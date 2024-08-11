@@ -34,8 +34,8 @@ export default function IndependanceDay() {
                 </div>
                 <div className="row justify-content-center">
                     <p className="text-plain">
-                        Celebrate Indepe-text-boxendence Day by prioritizing your health with Neuberg Anand’s exclusive offer.<br />
-                        Embrace the freedom to take control of your well-being and make preventive health a priority.
+                    Celebrate Independence Day by prioritizing your health with Neuberg Anand’s exclusive offer.<br /> 
+                    Embrace the freedom to take control of your well-being and make preventive health a priority. 
                     </p>
                     
                 </div>

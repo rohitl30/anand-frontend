@@ -1,17 +1,18 @@
 .orange-color-text {
     color: #FF8B00;
     font-family: Maven Pro;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 800;
     line-height: 43.2px;
     text-align: center;
     margin-top: 3rem;
+    padding-bottom: 0.7rem;
 }
 
 .violet-color-text {
     color: #5C2D91;
     font-family: Maven Pro;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 43.2px;
     text-align: center;
@@ -23,21 +24,22 @@
     text-align: center;
     padding: 0.25rem 5rem 0rem 5rem;
     border-radius: 12px;
-    width: 18rem;
-    gap: 1rem;
+    width: 20rem;
+    /* gap: -rem; */
     margin-top: -3rem;
+    border-color: transparent;
 }
 
 .callimg {
-    height: 2.3rem;
-    margin-left: -3rem;
+    height: 2rem;
+    margin-left: -1.5rem;
     margin-top: 0.3rem;
 }
 
 
 .text-plain {
     font-size: larger;
-    font-weight: 500;
+    font-weight: 600;
     width: 1103px;
     height: 113px;
     top: 295px;
@@ -45,6 +47,7 @@
     text-align: center;
     margin: 1.5rem;
     flex-direction: column;
+    line-height: rem;
 
 }
 
@@ -54,21 +57,15 @@
 
 .white-text-box {
     color: white;
-    background-color: #F79321;
     padding: 1rem 3rem;
     border-radius: 15px;
     text-align: center;
     width: 300px;
     height: 80px;
     font-size: 1.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: block;
-    margin: 1rem 0;
+    margin: 1rem ;
 }
-
-
-
-
 
 .bg-linear-orange {
     background: linear-gradient(181.16deg, #DE800E 0.99%, #EFA246 99.01%);
@@ -103,6 +100,7 @@
     color: white;
     font-size: 25px;
     width: 25rem;
+    margin-left: 1.5rem;
 }
 
 .basic-package {

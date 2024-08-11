@@ -131,8 +131,8 @@ export default function App() {
           <Route path='/register' exact element={<Register />} />
           <Route path='/test/:TestId' exact element={<TestDetails />} />
           <Route path='/package/:TestId' exact element={<TestDetails />} />
-          {/* <Route path='/' element={<Home />} /> */}
-          <Route path='/' element={<IndependanceDay />} />
+          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<IndependanceDay />} /> */}
           <Route path='/about-us' element={<About />} />
           <Route path='/people-behind' element={<Peoplebhind />} />
           <Route path='/history' element={<History />} />
@@ -189,6 +189,8 @@ export default function App() {
           <Route path='/womens-health' exact element={<WomensHealth />} />
           <Route path='/anand-at-home/dengue' exact element={<Dengue />} />
           <Route path='/friendship-day' exact element={<FriendshipDay />} />
+          <Route path='/IndependanceDay' exact element={<IndependanceDay />} />
+
         </Routes>
         <Footer />
         <AlertBox />
