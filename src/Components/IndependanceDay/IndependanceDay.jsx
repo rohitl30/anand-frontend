@@ -12,6 +12,8 @@ import bindia from "../../assets/images/Bindia.png";
 import addicon from "../../assets/images/addicon.png";
 import addb from "../../assets/images/addb.png";
 import orangeplus from "../../assets/images/orangeplus.png";
+import boygirlflag from "../../assets/images/boygirlflag.png";
+import by1get1 from "../../assets/images/buy1get1.png";
 
 
 
@@ -35,11 +37,11 @@ export default function IndependanceDay() {
                         Celebrate Indepe-text-boxendence Day by prioritizing your health with Neuberg Anand’s exclusive offer.<br />
                         Embrace the freedom to take control of your well-being and make preventive health a priority.
                     </p>
-
+                    
                 </div>
                 <div className="row  justify-content-center">
                     <button className="bg-orange button-flex">
-                        <img className="callimg"src={call} alt="call" />
+                        <img className="callimg" src={call} alt="call" />
                         <h2 className="white-text">
                             8035&nbsp;28&nbsp;7579
                         </h2>
@@ -47,24 +49,39 @@ export default function IndependanceDay() {
                 </div>
 
             </div>
-
-
-              <div className="cont">
-                <div className="form-container">
-                    <h2>Our Partners in Health are at your service</h2>
-                    <form>
-                        <input type="text" placeholder="Name" />
-                        <input type="tel" placeholder="Mobile number +91" />
-                        <div className="captcha">
-                            <input type="checkbox" />
-                            <label>I'm not a robot</label>
-                            <div className="captcha-image">{/* ... */}</div>
-                        </div>
-                        <button type="submit">Request a Call</button>
-                    </form>
+            <div className="container" style={{ background: 'linear-gradient(180deg, #FFFFFF 0%, #F7941D 100%)', borderRadius: '20px' }}>
+                <div className="row">
+                    <h2 className="violett-container">
+                        <span className="text-background" style={{ background:'white'}}>
+                            Enjoy the freedom to live healthy!
+                        </span>
+                        <img className="flag" src={boygirlflag} alt="flag" />
+                        <img className="offer" src={by1get1} alt="flag" />
+                    </h2>
                 </div>
-            </div>
 
+                <div className='for-m'>
+                    <div className="f">
+                        <form>
+                            <h3 className='form-head'> Our partners in health are at your service. </h3> <br />
+                            <div className='inputs-txt'>
+                                <input className='text-input' type="textbox" placeholder="Name" name="name" /> <br /> <br />
+                                <input className='text-input' type="textbox" placeholder="Mobile Number | + 91" name="mobile" /> <br /> <br />
+                                <input className='text-input' type="textbox" placeholder="I'm not a robot " name="Robot" /> <br />
+                            </div>
+                            <button className="req-button">
+                                Request A Call
+                            </button>
+        
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div className="container pd-4">
+
+            </div>
 
             <div className="container pd-4">
                 <div className="basic-package">
@@ -214,9 +231,11 @@ export default function IndependanceDay() {
 
                     </div>
                 </div>
+                
 
             </div>
         </div >
+        
 
     );
 }
