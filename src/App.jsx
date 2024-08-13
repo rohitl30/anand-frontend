@@ -87,6 +87,8 @@ import WomensHealth from './Components/WomensHealth/WomensHealth'
 import Dengue from './Components/Dengue/Dengue'
 import FriendshipDay from './Components/FriendshipDay/FriendshipDay'
 import IndependanceDay from './Components/IndependanceDay/IndependanceDay'
+import SeniorCitizenCard from './Components/SeniorCitizenCard/SeniorCitizenCard'
+
 
 
 export default function App() {
@@ -131,8 +133,9 @@ export default function App() {
           <Route path='/register' exact element={<Register />} />
           <Route path='/test/:TestId' exact element={<TestDetails />} />
           <Route path='/package/:TestId' exact element={<TestDetails />} />
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} /> */}
           {/* <Route path='/' element={<IndependanceDay />} /> */}
+          <Route path='/' element={<SeniorCitizenCard />} />
           <Route path='/about-us' element={<About />} />
           <Route path='/people-behind' element={<Peoplebhind />} />
           <Route path='/history' element={<History />} />
@@ -190,6 +193,9 @@ export default function App() {
           <Route path='/anand-at-home/dengue' exact element={<Dengue />} />
           <Route path='/friendship-day' exact element={<FriendshipDay />} />
           <Route path='/IndependanceDay' exact element={<IndependanceDay />} />
+          <Route path='/SeniorCitizenCard' exact element={<SeniorCitizenCard />} />
+
+
 
         </Routes>
         <Footer />

@@ -1,0 +1,163 @@
+.orange-col-text {
+    color: #FF8B00;
+    font-family: Maven Pro;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 43.2px;
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: -0.7rem;
+}
+
+.violet-col-text {
+    color: #5C2D91;
+    font-family: Maven Pro;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.2px;
+    text-align: center;
+
+}
+
+.plain-text {
+    background: #4C4B4B;
+    font-size: larger;
+    font-weight: 600;
+    width: 1103px;
+    height: 113px;
+    top: 295px;
+    left: 164px;
+    text-align: center;
+    margin: 1.5rem;
+    flex-direction: column;
+    line-height: rem;
+    
+}
+
+.violett-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 0.8rem;
+
+}
+
+.bg-orange {
+    background: linear-gradient(90.97deg, #F7941D 58.96%, rgba(255, 173, 75, 0.86) 98.25%);
+    text-align: center;
+    padding: 0.25rem 5rem 0rem 5rem;
+    border-radius: 12px;
+    width: 20rem;
+    margin-top: 0rem;
+    border-color: transparent;
+}
+
+.calling {
+    height: 2rem;
+    margin-left: -1.5rem;
+    margin-top: 0.3rem;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden; 
+    background: #fff; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.couple-image {
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+
+.form-container {
+    flex: 1;
+    background: linear-gradient(to bottom, #ffffff, #5c289f);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    height: 450px;
+}
+
+.form-head {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 18px;
+    background: #f6f6f6;
+}
+
+.recaptcha-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f6f6f6;
+}
+
+.recaptcha-container label {
+    margin: 1px;
+    font-size: 14px;
+}
+
+.recaptchalogo {
+    height: 50px;
+    margin-left: 350px;
+}
+
+.req-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9500;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.req-button:hover {
+    background-color: #e68a00;
+}
+
+.Ben{
+    font-weight:200rem;
+    text-align: center;
+    display: flex;
+    word-spacing: 5px;
+
+}
+
+
+
+
