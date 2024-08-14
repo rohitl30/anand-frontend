@@ -31,7 +31,7 @@
     margin: 1.5rem;
     flex-direction: column;
     line-height: rem;
-    
+
 }
 
 .violett-container {
@@ -65,30 +65,30 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 20px;
-    overflow: hidden; 
-    background: #fff; 
+    overflow: hidden;
+    background: #fff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
     margin: auto;
 }
 
 .image-container {
-    flex: 1;
+    flex: 1.3;
 }
 
 .couple-image {
     width: 100%;
-    height: 450px;
+    height: 400px;
     display: block;
 }
 
 .form-container {
     flex: 1;
     background: linear-gradient(to bottom, #ffffff, #5c289f);
-    padding: 20px;
     text-align: center;
     border-radius: 20px 20px 20px 20px;
     height: 450px;
+    
 }
 
 .form-head {
@@ -133,7 +133,7 @@
 }
 
 .req-button {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     border: none;
     border-radius: 5px;
@@ -150,14 +150,106 @@
     background-color: #e68a00;
 }
 
-.Ben{
-    font-weight:200rem;
-    text-align: center;
-    display: flex;
-    word-spacing: 5px;
+.benefits-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #fdf2ea;
+}
 
+.benefits-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.benefits-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.benefits-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.icon-item {
+    text-align: center;
+    font-size: 16px;
+    color: #6a1b9a;
+}
+
+.icon-item img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 50px;
+    /* Adjust as needed */
+}
+
+.offers-discounts {
+    text-align: center;
+    /* Center-aligns the text and list items */
+}
+
+.offers-title {
+    font-size: 1.5em;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Makes the title bold */
+    margin-bottom: 20px;
+    /* Adds space below the title */
+}
+
+.offers-list {
+    list-style-type: none;
+    /* Removes bullet points from the list */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+}
+
+.offers-list li {
+    margin-bottom: 10px;
+    /* Adds space between list items */
+    font-size: 1.2em;
+    /* Adjust the font size as needed */
 }
 
 
+.elder-care-logo {
+    width: 373px;
+    height: 255px;
+    top: 377px;
+    left: 753px;
 
 
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.image1,
+.image2 {
+    width: 45%;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta-container {
+    margin-top: 40px;
+}
