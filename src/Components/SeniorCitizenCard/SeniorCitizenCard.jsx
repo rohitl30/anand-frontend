@@ -70,59 +70,56 @@ export default function SeniorCitizenCard() {
                 </div>
             </div>
 
-            <div className="container pd-4 top-padding">
-                <div className="row justify-content-center">
-                    <p className="orange-col-text">XTRA CARE</p>
+                <div className="container pd-4 top-padding">
+                    <div className="text-conatiner justify-content-center">
+                        <p className="o-col">XTRA CARE</p> <p className="v-col">for Senior Citizens</p>
+                    </div>
                 </div>
-                <div className="row justify-content-center">
-                    <p className="violet-col-text">for Senior Citizens</p>
-                </div>
-            </div>
 
-            <div className="benefits-container">
-                <div className="benefits-header">
-                    <p className="benefits-title">BENEFITS FOR SENIOR CITIZENS</p>
+                <div className="benefits-container">
+                    <div className="benefits-header">
+                        <p className="benefits-title">BENEFITS FOR SENIOR CITIZENS</p>
+                    </div>
+                    <div className="benefits-icons">
+                        <div className="icon-item">
+                            <img className="PersonalConcierge" src={PersonalConcierge} alt="PC" />
+                            <p>Personal concierge <br /> for senior citizens</p>
+                        </div>
+                        <div className="icon-item">
+                            <img className="SafeAndSecured" src={SafeAndSecured} alt="SC" />
+                            <p>Safe & Secured <br /> Free Home Sample Collection</p>
+                        </div>
+                        <div className="icon-item">
+                            <img className="PersonalReminders" src={PersonalReminders} alt="PC" />
+                            <p>Personal reminders <br /> for repeat tests</p>
+                        </div>
+                    </div>
+                    <div className="offers-discounts">
+                        <p className="offers-title">XCLUSIVE OFFERS & DISCOUNTS</p>
+                        <ul className="offers-list">
+                            <li>5% OFF on Health Packages for Seniors</li>
+                            <li>20% OFF on Routine Blood Tests</li>
+                            <li>10% OFF on Ultrasound @ Shivajinagar, Kasturinagar</li>
+                            <li>10% OFF on ECG @ Shivajinagar, Kasturinagar, Vijaynagar, Jayanagar</li>
+                            <li>10% OFF on Dexa, Mammogram, Eye checkup, PFT @ Shivajinagar</li>
+                        </ul>
+                        <img className="elder-care-logo" src={ElderCare} alt="Elder Care" />
+                    </div>
                 </div>
-                <div className="benefits-icons">
-                    <div className="icon-item">
-                        <img className="PersonalConcierge" src={PersonalConcierge} alt="PC" />
-                        <p>Personal concierge <br /> for senior citizens</p>
-                    </div>
-                    <div className="icon-item">
-                        <img className="SafeAndSecured" src={SafeAndSecured} alt="SC" />
-                        <p>Safe & Secured <br /> Free Home Sample Collection</p>
-                    </div>
-                    <div className="icon-item">
-                        <img className="PersonalReminders" src={PersonalReminders} alt="PC" />
-                        <p>Personal reminders <br /> for repeat tests</p>
-                    </div>
-                </div>
-                <div className="offers-discounts">
+
+
+                <div className="card-container">
                     <p className="offers-title">XCLUSIVE OFFERS & DISCOUNTS</p>
-                    <ul className="offers-list">
-                        <li>5% OFF on Health Packages for Seniors</li>
-                        <li>20% OFF on Routine Blood Tests</li>
-                        <li>10% OFF on Ultrasound @ Shivajinagar, Kasturinagar</li>
-                        <li>10% OFF on ECG @ Shivajinagar, Kasturinagar, Vijaynagar, Jayanagar</li>
-                        <li>10% OFF on Dexa, Mammogram, Eye checkup, PFT @ Shivajinagar</li>
-                    </ul>
-                    <img className="elder-care-logo" src={ElderCare} alt="Elder Care" />
+                    <div className="image-container">
+                        <img className="elder-care-logo" src={ElderCare} alt="Elder Care" />
+                        <img className="elder-care-logo" src={BenifitsSCImage} alt="BI" />
+                    </div>BenifitsSCImage
+                    <div className="cta-container">
+                        <p>Your senior discount is just a download away.</p>
+                        <p>Get your card and show it at the lab for easy savings.</p>
+                        <button className="bg-orange">Download Your Card Now</button>
+                    </div>
                 </div>
-            </div>
-
-
-            <div className="card-container">
-                <p className="offers-title">XCLUSIVE OFFERS & DISCOUNTS</p>
-                <div className="image-container">
-                    <img className="elder-care-logo" src={ElderCare} alt="Elder Care" />
-                    <img className="elder-care-logo" src={BenifitsSCImage} alt="BI" />
-                </div>BenifitsSCImage
-                <div className="cta-container">
-                    <p>Your senior discount is just a download away.</p>
-                    <p>Get your card and show it at the lab for easy savings.</p>
-                    <button className="bg-orange">Download Your Card Now</button>
-                </div>
-            </div>
 
 
 

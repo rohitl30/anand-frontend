@@ -5,7 +5,7 @@
     font-weight: 800;
     line-height: 43.2px;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 10rem;
     padding-bottom: -0.7rem;
 }
 
@@ -52,6 +52,7 @@
     width: 20rem;
     margin-top: 0rem;
     border-color: transparent;
+    margin-bottom: 3rem;
 }
 
 .calling {
@@ -70,6 +71,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 3rem;
 }
 
 .image-container {
@@ -124,7 +126,7 @@
 
 .recaptcha-container label {
     margin: 1px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .recaptchalogo {
@@ -150,10 +152,45 @@
     background-color: #e68a00;
 }
 
+/* Container Styling */
+.container {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.text-container {
+    display: inline-block; /* Use flexbox to align items side by side */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+.o-col, .v-col {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 5px; /* Adds a small space between the two elements */
+    display: flexbox;
+}
+
+.o-col {
+    color: #F9A825; /* Orange color */
+}
+
+.v-col {
+    color: #5E35B1; /* Violet color */
+}
+
+
+
+/* Benefits Section */
 .benefits-container {
-    width: 100%;
+    background-color: #FFF3E0; /* Light peach background */
     padding: 20px;
-    background-color: #fdf2ea;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
 .benefits-header {
@@ -162,94 +199,124 @@
 }
 
 .benefits-title {
-    font-size: 24px;
     font-weight: bold;
+    font-size: 1.25rem;
     color: #333;
 }
 
 .benefits-icons {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .icon-item {
     text-align: center;
-    font-size: 16px;
-    color: #6a1b9a;
+    margin: 10px;
+    flex: 1;
+    min-width: 150px;
 }
 
 .icon-item img {
-    display: block;
-    margin: 0 auto 10px;
     width: 50px;
-    /* Adjust as needed */
+    height: 50px;
+    margin-bottom: 10px;
 }
 
 .offers-discounts {
-    text-align: center;
-    /* Center-aligns the text and list items */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: left;
+    height: 15rem;
+    width: 80%; /* Adjust the width as needed */
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
 }
 
 .offers-title {
-    font-size: 1.5em;
-    /* Adjust the font size as needed */
     font-weight: bold;
-    /* Makes the title bold */
-    margin-bottom: 20px;
-    /* Adds space below the title */
+    color: #5E35B1; /* Match the violet color */
+    margin-bottom: 15px;
 }
 
 .offers-list {
-    list-style-type: none;
-    /* Removes bullet points from the list */
+    list-style: none;
     padding: 0;
-    /* Removes default padding */
     margin: 0;
-    /* Removes default margin */
 }
 
 .offers-list li {
     margin-bottom: 10px;
-    /* Adds space between list items */
-    font-size: 1.2em;
-    /* Adjust the font size as needed */
+    color: #333;
 }
-
 
 .elder-care-logo {
-    width: 373px;
-    height: 255px;
-    top: 377px;
-    left: 753px;
-
-
+    display: block;
+    margin: 10px auto;
+    max-width: 25rem;
+    margin-left: 47rem;
+    margin-top: -14.5rem;
 }
 
+/* Card Section */
 .card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #512DA8; /* Violet background */
+    color: #fff;
     padding: 20px;
-}
-
-.image-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 800px;
-}
-
-.image1,
-.image2 {
-    width: 45%;
-}
-
-.text-container {
+    border-radius: 10px;
     text-align: center;
-    margin-top: 20px;
 }
 
-.cta-container {
-    margin-top: 40px;
+.card-container .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-container img {
+    margin: 0 10px;
+    max-width: 150px;
+}
+
+.cta-container p {
+    margin: 5px 0;
+}
+
+.cta-container button {
+    background-color: #F9A825;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cta-container button:hover {
+    background-color: #F57F17; /* Darker orange for hover effect */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .benefits-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-item {
+        min-width: 100%;
+    }
+
+    .card-container .image-container {
+        flex-direction: column;
+    }
+
+    .card-container img {
+        margin-bottom: 10px;
+    }
 }
