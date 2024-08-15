@@ -3,8 +3,8 @@ import { Helmet } from "react-helmet";
 import './SeniorCitizenCard.css';
 import callM from "../../assets/images/SeniorCitizenCardImages/callM.png";
 import ShareDetails from "../../assets/images/SeniorCitizenCardImages/ShareDetails.png";
-import visit from "../../assets/images/SeniorCitizenCardImages/OurVisit.png";
 import Reports from "../../assets/images/SeniorCitizenCardImages/Reports.png";
+import OVisits from "../../assets/images/SeniorCitizenCardImages/OVisit.png"
 import ScheduleTest from "../../assets/images/SeniorCitizenCardImages/ScheduleTest.png";
 import Samples from "../../assets/images/SeniorCitizenCardImages/Samples.png";
 import LaughingCouple from '../../assets/images/SeniorCitizenCardImages/LaughingCouple.png';
@@ -189,7 +189,7 @@ export default function SeniorCitizenCard() {
                         </p>
                     </div>
                     <div className="col">
-                        <img className="works-img" src={visit} alt="Home visit" />
+                        <img className="works-img" src={OVisits} alt="Home visit" />
                         <p className="works-text">
                             Our representative<br />
                             would visit your home
