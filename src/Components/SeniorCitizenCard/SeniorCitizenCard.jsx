@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import './SeniorCitizenCard.css';
 import callM from "../../assets/images/SeniorCitizenCardImages/callM.png";
 import ShareDetails from "../../assets/images/SeniorCitizenCardImages/ShareDetails.png";
-import OurVisit from "../../assets/images/SeniorCitizenCardImages/OurVisit.png";
+import visit from "../../assets/images/SeniorCitizenCardImages/OurVisit.png";
 import Reports from "../../assets/images/SeniorCitizenCardImages/Reports.png";
 import ScheduleTest from "../../assets/images/SeniorCitizenCardImages/ScheduleTest.png";
 import Samples from "../../assets/images/SeniorCitizenCardImages/Samples.png";
@@ -34,7 +34,7 @@ export default function SeniorCitizenCard() {
                     <p className="violet-col-text">ENHANCED CARE FOR SENIOR CITIZENS</p>
                 </div>
                 <div className="row justify-content-center">
-                    <p className="Plain-text">
+                    <p className="Pn-text" style={{ Color: '#4C4B4B', fontSize: 'larger', fontWeight: 500, width: '1200px', height: '113px', textAlign: 'center', margin: '1.5rem auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         For Senior Citizen Day, we introduce a special card designed to meet the diagnostic needs of our esteemed<br />
                         elders in the community. This initiative underscores our commitment to providing exceptional care and<br />
                         support to our senior citizens.
@@ -75,8 +75,8 @@ export default function SeniorCitizenCard() {
 
             <div className="container pd-4 top-padding">
                 <div className="text-conatiner justify-content-center">
-                    <p className="o-col">XTRA CARE</p>
-                    <p className="v-col">for Senior Citizens</p>
+                    <span className="o-col">XTRA CARE</span>
+                    <span className="v-col">for Senior Citizens</span>
                 </div>
             </div>
 
@@ -99,8 +99,11 @@ export default function SeniorCitizenCard() {
                     </div>
                 </div>
                 <div className="offers-discounts">
-                    <img className="OffersAndDiscount" src={OffersAndDiscount} alt="OD" />
-                    <p className="offers-title">XCLUSIVE OFFERS & DISCOUNTS</p>
+                    <span className="yourSpanClass">
+                        <img className="OffersAndDiscount" src={OffersAndDiscount} alt="OD" />
+                        <p className="offers-title">XCLUSIVE OFFERS & DISCOUNTS</p>
+                    </span>
+
                     <ul className="offers-list">
                         <li>
                             <img className="offer-icon" src={VoiletTick} alt="Offer Icon" />
@@ -141,12 +144,12 @@ export default function SeniorCitizenCard() {
                 </div>
                 <div className="image-container">
                     <img className="elder-care-logo" src={ElderCare} alt="Elder Care" />
-                    <img className="elder-care-logo" src={BenifitsSCImage} alt="BI" />
+                    <img className="elder-care-ben" src={BenifitsSCImage} alt="BI" />
                 </div>
                 <div className="cta-container">
                     <p>Your senior discount is just a download away.</p>
                     <p>Get your card and show it at the lab for easy savings.</p>
-                    <button className="bg-orange">Download Your Card Now</button>
+                    <button className="b-orange">Download Your Card Now</button>
                 </div>
             </div>
 
@@ -186,7 +189,7 @@ export default function SeniorCitizenCard() {
                         </p>
                     </div>
                     <div className="col">
-                        <img className="works-img" src={OurVisit} alt="Home visit" />
+                        <img className="works-img" src={visit} alt="Home visit" />
                         <p className="works-text">
                             Our representative<br />
                             would visit your home
